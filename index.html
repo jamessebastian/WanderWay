@@ -33,17 +33,17 @@
                         <a class="nav-link active" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./About.html">Destinations</a>
+                        <a class="nav-link" href="#destinations">Destinations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="./Rooms.html">About Us</a>
+                        <a class="nav-link " href="#about">About Us</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="./Contact.html">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <button type="button" class="btn btn-outline-secondary">Plan Your Trip</button>
+                        <button onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })"  type="button" class="btn btn-outline-secondary">Plan Your Trip</button>
 
                     </li>
                 </ul>
@@ -59,7 +59,7 @@
 
 
     <!-- hero banner start -->
-    <main>
+    <main id="heroBanner">
         <div style=" background: url('https://www.shutterstock.com/image-photo/aerial-style-scene-woman-strolling-260nw-2741675703.jpg') center/cover no-repeat;"
             class="container-fluid align-items-center text-center">
             <br>
@@ -71,7 +71,7 @@
                 breathtaking landscapes, cultural experiences, or thrilling adventures, we have the perfect destination
                 for
                 you.</p>
-            <button type="button" class="btn btn-primary">Explore Destinations</button>
+            <button onclick="document.getElementById('destinations').scrollIntoView({ behavior: 'smooth' })" type="button" class="btn btn-primary">Explore Destinations</button>
             <br>
             <br>
             <br>
@@ -94,11 +94,11 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Munnar</h1>
-                    
+
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                <div style="height: 200px; overflow: hidden;">
+                    <div style="height: 200px; overflow: hidden;">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXDs2vbXI1TF_x2OsydSwjNraUVnidQtFyoNuRxUYqBeoBIrY2oxKu6y4&s=10"
                             class="card-img-top" alt="...">
                     </div>
@@ -125,11 +125,11 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Goa</h1>
-                    
+
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                <div style="height: 200px; overflow: hidden;">
+                    <div style="height: 200px; overflow: hidden;">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKTBaNJ5Inat2cccORwI4oBJl9RJRW0uwQhvyUHBF5OuhHWgHfY6JGe9s&s=10"
                             class="card-img-top" alt="...">
                     </div>
@@ -152,17 +152,17 @@
 
 
 
-        <!-- modal 3 start -->
+    <!-- modal 3 start -->
     <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Ladakh</h1>
-                    
+
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                <div style="height: 200px; overflow: hidden;">
+                    <div style="height: 200px; overflow: hidden;">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr_RA_Q8Q70puYebemHgTqelahlmYpSykT9KDt3X9RxQ&s=10"
                             class="card-img-top" alt="...">
                     </div>
@@ -184,17 +184,17 @@
     <!-- modal 3 end -->
 
 
-        <!-- modal 4 start -->
+    <!-- modal 4 start -->
     <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Hong Kong</h1>
-                    
+
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                <div style="height: 200px; overflow: hidden;">
+                    <div style="height: 200px; overflow: hidden;">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhbCbNROyHvNK68Nf2uBaajNqm6Jby6y4CYHwvsStwjSvPC34tCTbULBo&s=10"
                             class="card-img-top" alt="...">
                     </div>
@@ -216,17 +216,17 @@
     <!-- modal 4 end -->
 
 
-        <!-- modal 5 start -->
+    <!-- modal 5 start -->
     <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Toronto</h1>
-                    
+
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                <div style="height: 200px; overflow: hidden;">
+                    <div style="height: 200px; overflow: hidden;">
                         <img src="https://img.static-kl.com/transform/ef8010e6-3c87-49a9-a503-e582e8ade696/"
                             class="card-img-top" alt="...">
                     </div>
@@ -248,17 +248,17 @@
     <!-- modal 5 end -->
 
 
-        <!-- modal 6 start -->
+    <!-- modal 6 start -->
     <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Bali</h1>
-                    
+
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                <div style="height: 200px; overflow: hidden;">
+                    <div style="height: 200px; overflow: hidden;">
                         <img src="https://lh3.googleusercontent.com/grass-cs/AABkmLebKVr2-J8rQYYeVBiGTwxgHjFvJyIT4mUuH8xvbZ-SPrfdMglGs47d0Mx1-JTTWm8CrBGmNgc_n5NRmuvcbneXPajWPbQqw0qXm9VrcdMfSjqtk_YpanQTBS_tbD0nYJaCegKQxA=w289-h312-n-k-no"
                             class="card-img-top" alt="...">
                     </div>
@@ -285,11 +285,12 @@
 
 
     <!-- destination cards start -->
-    <div class="container">
+    <section id="destinations">
+            <div class="container">
         <h1>Popular Destinations</h1>
         <br>
         <div class="row">
-<!-- destination 1 -->
+            <!-- destination 1 -->
             <div class="col mb-5">
                 <div class="card" style="width: 18rem;">
                     <div style="height: 200px; overflow: hidden;">
@@ -313,9 +314,9 @@
                     </ul>
                 </div>
             </div>
-<!-- destination 1 -->
+            <!-- destination 1 -->
 
-<!-- destination 2 -->
+            <!-- destination 2 -->
             <div class="col mb-5">
                 <div class="card" style="width: 18rem;">
                     <div style="height: 200px; overflow: hidden; background-position: center; background-size: cover; ">
@@ -339,10 +340,10 @@
                     </ul>
                 </div>
             </div>
-<!-- destination 2 -->
+            <!-- destination 2 -->
 
 
-<!-- destination 3 -->
+            <!-- destination 3 -->
             <div class="col mb-5">
                 <div class="card" style="width: 18rem;">
                     <div style="height: 200px; overflow: hidden;">
@@ -358,7 +359,7 @@
                         <li class="list-group-item">State:Ladakh</li>
                         <li class="list-group-item">Price:500$ per head</li>
                         <li class="list-group-item">
-                             <button type="button" data-bs-toggle="modal" data-bs-target="#modal3"
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#modal3"
                                 class="btn btn-outline-secondary ">
                                 View Details
                             </button>
@@ -366,10 +367,10 @@
                     </ul>
                 </div>
             </div>
-<!-- destination 3 -->
+            <!-- destination 3 -->
 
 
-<!-- destination 4 -->
+            <!-- destination 4 -->
             <div class="col mb-5">
                 <div class="card" style="width: 18rem;">
                     <div style="height: 200px; overflow: hidden;">
@@ -385,7 +386,7 @@
                         <li class="list-group-item">State:Hong Kong(China)</li>
                         <li class="list-group-item">Price:900$ per head</li>
                         <li class="list-group-item">
-                             <button type="button" data-bs-toggle="modal" data-bs-target="#modal3"
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#modal3"
                                 class="btn btn-outline-secondary ">
                                 View Details
                             </button>
@@ -393,11 +394,11 @@
                     </ul>
                 </div>
             </div>
-<!-- destination 4 -->
+            <!-- destination 4 -->
 
 
 
-<!-- destination 5 -->
+            <!-- destination 5 -->
             <div class="col mb-5">
                 <div class="card" style="width: 18rem;">
                     <div style="height: 200px; overflow: hidden;">
@@ -413,7 +414,7 @@
                         <li class="list-group-item">State:Ontario(Canada)</li>
                         <li class="list-group-item">Price:2500$ per head</li>
                         <li class="list-group-item">
-                             <button type="button" data-bs-toggle="modal" data-bs-target="#modal5"
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#modal5"
                                 class="btn btn-outline-secondary ">
                                 View Details
                             </button>
@@ -421,10 +422,10 @@
                     </ul>
                 </div>
             </div>
-<!-- destination 5 -->
+            <!-- destination 5 -->
 
 
-<!-- destination 6 -->
+            <!-- destination 6 -->
             <div class="col mb-5">
                 <div class="card" style="width: 18rem;">
                     <div style="height: 200px; overflow: hidden;">
@@ -440,7 +441,7 @@
                         <li class="list-group-item">State:Republic of Indonesia</li>
                         <li class="list-group-item">Price:1500$ per head</li>
                         <li class="list-group-item">
-                             <button type="button" data-bs-toggle="modal" data-bs-target="#modal6"
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#modal6"
                                 class="btn btn-outline-secondary ">
                                 View Details
                             </button>
@@ -448,15 +449,17 @@
                     </ul>
                 </div>
             </div>
-<!-- destination 6 -->
+            <!-- destination 6 -->
 
         </div>
     </div>
+        </section>
+
     <!-- destination cards end -->
 
 
     <!-- why choose us section start -->
-    <section>
+    <section id="about">
         <div class="container">
 
             <h1>Why Choose Us <i class="fa-solid fa-heart"></i> </h1>
@@ -500,7 +503,7 @@
     <!-- why choose us section end -->
 
     <!-- Travel Enquirey Form Section start -->
-    <section>
+    <section id="contact">
         <div class="container">
             <h1>Travel Enquiry Form</h1>
             <form>
@@ -539,86 +542,87 @@
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
-        <!-- Travel Enquirey Form Section end -->
+    </section>
+    <!-- Travel Enquirey Form Section end -->
 
 
 
-        <br>
-        <br>
-        <footer class=" bg-dark text-white pt-5 pb-3 mt-auto">
-            <div class="container">
-                <div class="row g-4">
+    <br>
+    <br>
+    <footer class=" bg-dark text-white pt-5 pb-3 mt-auto">
+        <div class="container">
+            <div class="row g-4">
 
-                    <!-- Column 1: Get in Touch -->
-                    <div class="col-md-6 col-lg-5">
-                        <h5 class="text-uppercase fw-bold mb-4">WanderWay</h5>
-                        <p>WanderWay is your go to travel Agency for booking cool travel spots with your loved ones.</p>
-                        <ul class="list-unstyled text-white-50 lh-lg mb-4">
+                <!-- Column 1: Get in Touch -->
+                <div class="col-md-6 col-lg-5">
+                    <h5 class="text-uppercase fw-bold mb-4">WanderWay</h5>
+                    <p>WanderWay is your go to travel Agency for booking cool travel spots with your loved ones.</p>
+                    <ul class="list-unstyled text-white-50 lh-lg mb-4">
 
-                            <li>234 old road, ernakulam</li>
-                            <li>+1-202-555-0100</li>
-                            <li>demo@info.com</li>
-                        </ul>
+                        <li>234 old road, ernakulam</li>
+                        <li>+1-202-555-0100</li>
+                        <li>demo@info.com</li>
+                    </ul>
 
-                        <!-- Social Icons -->
+                    <!-- Social Icons -->
 
-                        <div class="mb-4">
-                            <a href="#" class="btn btn-outline-light btn-sm rounded-circle" aria-label="YouTube">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a> <a href="#" class="btn btn-outline-light btn-sm rounded-circle" aria-label="YouTube">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a> <a href="#" class="btn btn-outline-light btn-sm rounded-circle" aria-label="YouTube">
-                                <i class="fa-brands fa-whatsapp"></i>
-                            </a>
-                            <a href="#" class="btn btn-outline-light btn-sm rounded-circle" aria-label="YouTube">
-                                <i class="fa-brands fa-x-twitter"></i>
-                            </a>
-                        </div>
-
-                        <!-- Email Input Form -->
-                        <form>
-                            <div class="input-group mb-3">
-                                <input type="email" class="form-control bg-transparent text-white border-secondary"
-                                    placeholder="Your email address" aria-label="Your email address" required>
-                                <button class="btn btn-outline-light" type="submit">Subscribe</button>
-                            </div>
-                        </form>
+                    <div class="mb-4">
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle" aria-label="YouTube">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a> <a href="#" class="btn btn-outline-light btn-sm rounded-circle" aria-label="YouTube">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a> <a href="#" class="btn btn-outline-light btn-sm rounded-circle" aria-label="YouTube">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle" aria-label="YouTube">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
                     </div>
 
-                    <!-- Column 2: Explore -->
-                    <div class="col-md-6 col-lg-6 offset-lg-1">
-                        <h5 class="text-uppercase fw-bold mb-4">Explore</h5>
-                        <div class="row g-2">
-                            <div class="col-6">
-                                <ul class="list-unstyled">
-                                    <li class="mb-2"><a href="./index.html"
-                                            class="text-white-50 text-decoration-none hov-link ">Home</a></li>
-                                    <li class="mb-2"><a href="./About.html"
-                                            class="text-white-50 text-decoration-none hov-link">Destinations</a></li>
-                                    <li class="mb-2"><a href="./Rooms.html"
-                                            class="text-white-50 text-decoration-none hov-link">About Us</a></li>
-
-                                    <li class="mb-2"><a href="./Contact.html"
-                                            class="text-white-50 text-decoration-none hov-link">Contact</a></li>
-                                </ul>
-                            </div>
-
+                    <!-- Email Input Form -->
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control bg-transparent text-white border-secondary"
+                                placeholder="Your email address" aria-label="Your email address" required>
+                            <button class="btn btn-outline-light" type="submit">Subscribe</button>
                         </div>
-                    </div>
-
+                    </form>
                 </div>
 
-                <!-- Copyright Divider & Row -->
-                <hr class="border-secondary mt-5 mb-4">
+                <!-- Column 2: Explore -->
+                <div class="col-md-6 col-lg-6 offset-lg-1">
+                    <h5 class="text-uppercase fw-bold mb-4">Explore</h5>
+                    <div class="row g-2">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="#heroBanner"
+                                        class="text-white-50 text-decoration-none hov-link ">Home</a></li>
+                                <li class="mb-2"><a href="#destinations"
+                                        class="text-white-50 text-decoration-none hov-link">Destinations</a></li>
+                                <li class="mb-2"><a href="#about"
+                                        class="text-white-50 text-decoration-none hov-link">About Us</a></li>
 
-                <div class="row align-items-center">
-                    <div class="col text-center">
-                        <p class="text-white-50 small mb-0">&copy; 2026 All right reserved. Designed by <a href="#"
-                                class="text-white text-decoration-none fw-semibold">James</a>.</p>
+                                <li class="mb-2"><a href="#contact"
+                                        class="text-white-50 text-decoration-none hov-link">Contact</a></li>
+                            </ul>
+                        </div>
+
                     </div>
+                </div>
+
+            </div>
+
+            <!-- Copyright Divider & Row -->
+            <hr class="border-secondary mt-5 mb-4">
+
+            <div class="row align-items-center">
+                <div class="col text-center">
+                    <p class="text-white-50 small mb-0">&copy; 2026 All right reserved. Designed by <a href="#"
+                            class="text-white text-decoration-none fw-semibold">James</a>.</p>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
 
 
@@ -626,9 +630,9 @@
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 
 </body>
 
